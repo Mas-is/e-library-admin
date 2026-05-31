@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Login | Sistem Informasi Perpustakaan UNPAM</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="login-body">
+  <main class="login-wrap">
+    <section class="login-card">
+      <div class="logo-box"><div class="logo-seal"></div></div>
+      <h1>Sistem Informasi<br>Perpustakaan UNPAM</h1>
+      <p>Masuk sebagai admin perpustakaan digital</p>
+
+      <form id="loginForm" autocomplete="off" novalidate>
+        <div class="form-field">
+          <label>Email</label>
+          <div class="input-wrap"><span class="icon">✉</span><input id="email" type="email" value="admin@elibrary.com" placeholder="admin@elibrary.com"></div>
+          <small class="error-text" id="emailError"></small>
+        </div>
+        <div class="form-field">
+          <label>Kata Sandi</label>
+          <div class="input-wrap"><span class="icon">▣</span><input id="password" type="password" value="admin123" placeholder="••••••••"><button class="eye-btn" type="button" id="togglePassword">⊙</button></div>
+          <small class="error-text" id="passwordError"></small>
+        </div>
+        <a href="#" class="login-forgot">Lupa kata sandi?</a>
+        <button class="btn btn-primary btn-full" type="submit">Masuk →</button>
+      </form>
+      <div class="copy">© 2026 E-Library Management System.</div>
+      <div class="ssl-badge">♡ Keamanan Terenkripsi SSL 256-bit</div>
+    </section>
+  </main>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
