@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Riwayat Anggota | E-Library</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="anggota-riwayat.html">
+  <div class="app">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-title">E-Library <span class="member-word">Member</span></div>
+        <div class="brand-sub">Portal Anggota</div>
+      </div>
+      <nav class="nav"><a class="nav-link " href="anggota-dashboard.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg><span>Dashboard</span></a>
+<a class="nav-link " href="anggota-katalog.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M4 4v15.5A2.5 2.5 0 0 1 6.5 17H20V4z"/></svg><span>Katalog Buku</span></a>
+<a class="nav-link " href="anggota-peminjaman.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M7 7h10M7 12h10M7 17h6"/><rect x="4" y="3" width="16" height="18" rx="2"/></svg><span>Peminjaman Saya</span></a>
+<a class="nav-link " href="anggota-pengembalian.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 14 4 9l5-5"/><path d="M4 9h11a5 5 0 0 1 0 10h-1"/><rect x="3" y="3" width="18" height="18" rx="2"/></svg><span>Pengembalian</span></a>
+<a class="nav-link active" href="anggota-riwayat.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 3v5h5"/><path d="M3.05 13A9 9 0 1 0 6 5.3L3 8"/><path d="M12 7v5l3 2"/></svg><span>Riwayat</span></a>
+<a class="nav-link " href="anggota-profil.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg><span>Profil</span></a>
+<a class="nav-link " href="anggota-bantuan.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 1 1 5.8 1c0 2-3 2-3 4"/><path d="M12 17h.01"/></svg><span>Bantuan</span></a></nav>
+      <div class="sidebar-bottom">
+        <div class="user-mini"><div class="initial member-initial member-avatar">SA</div><div><strong class="member-name">Siti Aminah</strong><span class="member-role">Mahasiswa</span></div></div>
+        <a href="index.html" class="logout"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><path d="M16 17l5-5-5-5"/><path d="M21 12H9"/></svg><span>Logout</span></a>
+      </div>
+    </aside>
+    <main class="main">
+      <header class="topbar">
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+        <div class="top-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg><input id="topSearch" type="search" placeholder="Cari buku, kategori, atau riwayat..."></div>
+        <div class="top-actions">
+          <div class="bell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg></div>
+          <div class="admin-block"><div><strong class="member-name">Siti Aminah</strong><span class="member-role">Mahasiswa</span></div><div class="initial member-initial member-avatar">SA</div></div>
+        </div>
+      </header>
+      <section class="content">
+        <div class="page-head">
+          <div>
+            <h1>Riwayat Anggota</h1>
+            <p>Lihat seluruh riwayat peminjaman dan pengembalian.</p>
+          </div>
+          <a href="anggota-dashboard.html" class="btn btn-secondary">Kembali</a>
+        </div>
+<div class="stats-grid">
+  <article class="stat-card"><div><div class="stat-label">Total Riwayat</div><div class="stat-value">0</div></div></article>
+  <article class="stat-card"><div><div class="stat-label">Aktif</div><div class="stat-value">0</div></div></article>
+  <article class="stat-card"><div><div class="stat-label">Selesai</div><div class="stat-value">0</div></div></article>
+  <article class="stat-card"><div><div class="stat-label">Perlu Perhatian</div><div class="stat-value text-danger">0</div></div></article>
+</div>
+<section class="panel"><div class="panel-title"><h2>Riwayat Peminjaman</h2><button class="btn btn-secondary" data-export>Export</button></div><div class="table-wrap no-border"><table><thead><tr><th>No</th><th>Judul Buku</th><th>Tanggal Pinjam</th><th>Batas Kembali</th><th>Dikembalikan</th><th>Status</th><th>Denda</th></tr></thead><tbody id="memberHistoryRows"></tbody></table></div></section>
+      </section>
+      <footer class="footer"><span>© 2026 E-Library Management System. Member Portal.</span><div class="footer-links"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Support</a></div></footer>
+    </main>
+  </div>
+  <div class="modal" id="modal"><div class="modal-card" id="modalCard"></div></div>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
