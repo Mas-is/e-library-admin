@@ -39,8 +39,3 @@ Fitur aktif:
 
 Catatan:
 Project ini client-side only. Data belum terhubung ke database.
-
-UPDATE MEMBER PORTAL
-- Login anggota menggunakan email anggota yang ada di data anggota dan password yang sudah disiapkan pada sistem.
-- Halaman anggota: anggota-dashboard.html, anggota-katalog.html, anggota-riwayat.html, anggota-profil.html
-- Tampilan anggota mengikuti existing UI admin: sidebar kiri, topbar, stat card, panel, tabel, katalog buku.
